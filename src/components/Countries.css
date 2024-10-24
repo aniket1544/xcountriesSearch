@@ -1,0 +1,43 @@
+.countryCard {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.countryCard img {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.countryCard p {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.inputDiv {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.inputDiv input {
+    width: 100%;
+    padding: 8px;
+}
